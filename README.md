@@ -29,3 +29,6 @@ conocimientos de programacion.
 - Participación en proyectos de contact center, cobranza o automatización conversacional.
 - Conocimiento de Python aplicado a procesamiento de lenguaje natural o automatización.
 - Conocimientos en servicios como Bedrock o uso de SDKs de OpenAI, Claude, etc.
+
+-Diseñar y ejecutar automatizaciones e integraciones mediante el consumo de APIs REST, Webhooks y estructuras JSON
+
