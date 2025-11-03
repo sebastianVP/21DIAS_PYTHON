@@ -7,3 +7,16 @@ conocimientos de programacion.
     - Libreria asyncio 
 2. Manejo de memorias y generadores
     - yield: uso eficiente de memoria en la lectura de grandes archivos
+3. Decoradores: wrapper Un decorador es una funcion que modifica el comportamiento de otra funcion.
+    @medir_tiempo
+4. HINTS: Los type hints ayudan a detectar errores antes de ejecutar.
+
+
+OBJETIVOS A PRACTICAR:
+• Python avanzado (asincronía, manejo de memoria, decoradores, type hints).
+• Frameworks backend: FastAPI, Django, Flask.
+• Bases de datos: SQL (PostgreSQL, MySQL) y NoSQL (MongoDB, Redis).
+• Librerías de BI/IA/ML: Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch (deseable).
+• APIs REST/GraphQL y manejo de autenticación (JWT, OAuth2).
+• Git, metodologías ágiles (Scrum/Kanban).
+• Conocimientos en Odoo (deseable).
