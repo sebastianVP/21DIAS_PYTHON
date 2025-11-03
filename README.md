@@ -14,13 +14,13 @@ conocimientos de programacion.
 
 ## OBJETIVOS A PRACTICAR:
 
-• Python avanzado (asincronía, manejo de memoria, decoradores, type hints).
-• Frameworks backend: FastAPI, Django, Flask.
-• Bases de datos: SQL (PostgreSQL, MySQL) y NoSQL (MongoDB, Redis).
-• Librerías de BI/IA/ML: Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch (deseable).
-• APIs REST/GraphQL y manejo de autenticación (JWT, OAuth2).
-• Git, metodologías ágiles (Scrum/Kanban).
-• Conocimientos en Odoo (deseable).
+- Python avanzado (asincronía, manejo de memoria, decoradores, type hints).
+- Frameworks backend: FastAPI, Django, Flask.
+- Bases de datos: SQL (PostgreSQL, MySQL) y NoSQL (MongoDB, Redis).
+- Librerías de BI/IA/ML: Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch (deseable).
+- APIs REST/GraphQL y manejo de autenticación (JWT, OAuth2).
+- Git, metodologías ágiles (Scrum/Kanban).
+- Conocimientos en Odoo (deseable).
 
 
 - Experiencia construyendo agentes que actúan como asistentes de desarrollo o automatización de tareas técnicas.
