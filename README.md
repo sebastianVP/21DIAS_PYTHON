@@ -12,7 +12,8 @@ conocimientos de programacion.
 4. HINTS: Los type hints ayudan a detectar errores antes de ejecutar.
 
 
-OBJETIVOS A PRACTICAR:
+## OBJETIVOS A PRACTICAR:
+
 • Python avanzado (asincronía, manejo de memoria, decoradores, type hints).
 • Frameworks backend: FastAPI, Django, Flask.
 • Bases de datos: SQL (PostgreSQL, MySQL) y NoSQL (MongoDB, Redis).
@@ -20,3 +21,11 @@ OBJETIVOS A PRACTICAR:
 • APIs REST/GraphQL y manejo de autenticación (JWT, OAuth2).
 • Git, metodologías ágiles (Scrum/Kanban).
 • Conocimientos en Odoo (deseable).
+
+
+- Experiencia construyendo agentes que actúan como asistentes de desarrollo o automatización de tareas técnicas.
+- Conocimiento en entornos de voz (Twilio, WebSockets de audio, TTS/STT).
+- Familiaridad con herramientas de bajo código como n8n o Make, combinadas con lógica programada en Python.
+- Participación en proyectos de contact center, cobranza o automatización conversacional.
+- Conocimiento de Python aplicado a procesamiento de lenguaje natural o automatización.
+- Conocimientos en servicios como Bedrock o uso de SDKs de OpenAI, Claude, etc.
