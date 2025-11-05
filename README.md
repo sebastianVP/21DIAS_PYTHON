@@ -14,8 +14,9 @@ conocimientos de programacion.
 
 ## OBJETIVOS A PRACTICAR:
 
-- Python avanzado (asincronía, manejo de memoria, decoradores, type hints).
-- Frameworks backend: FastAPI, Django, Flask.
+- [x] ~~Python avanzado (asincronía, manejo de memoria, decoradores, type hints).~~
+- [X] ~~Frameworks backend: FastAPI.~~
+- Frameworks backed:  Django, Flask.
 - Bases de datos: SQL (PostgreSQL, MySQL) y NoSQL (MongoDB, Redis).
 - Librerías de BI/IA/ML: Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch (deseable).
 - APIs REST/GraphQL y manejo de autenticación (JWT, OAuth2).
@@ -31,4 +32,21 @@ conocimientos de programacion.
 - Conocimientos en servicios como Bedrock o uso de SDKs de OpenAI, Claude, etc.
 
 -Diseñar y ejecutar automatizaciones e integraciones mediante el consumo de APIs REST, Webhooks y estructuras JSON
+
+Requisitos técnicos indispensables, al menos 1 año de experiencia en:
+
+
+- soluciones de análisis de datos y big data
+- Python 🐍 SQL (y en desarrollo de procedimientos con SQL embebido en el tratamiento y transformación de la información) 🗃️
+- Spark / PySpark y mejora de rendimientos 
+
+Valorable:
+
+- ✅Diseño de Bases de datos Relacionales
+
+- ✅Tuning-optimización Sentencias
+
+- ✅otros lenguajes
+
+
 

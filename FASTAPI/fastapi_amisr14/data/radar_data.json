@@ -1,0 +1,9 @@
+[
+    {
+        "estacion": "AMISR14",
+        "frecuencia_mhz": 450.0,
+        "potencia_kW": 155.5,
+        "timestamp": "2025-11-03 13:45:00",
+        "temperatura_c": 25.0
+    }
+]
