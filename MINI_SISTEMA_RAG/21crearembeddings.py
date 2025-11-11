@@ -14,6 +14,7 @@ texts = [
     "La ionosfera afecta las señales GPS.",
     "El modelo LSTM se usa para series temporales.",
     "Qdrant permite búsquedas semánticas rápidas."
+    
 ]
 
 vectors = model.encode(texts)

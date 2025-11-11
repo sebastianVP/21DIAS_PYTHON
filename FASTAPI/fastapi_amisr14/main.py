@@ -15,7 +15,7 @@ from datetime import datetime
 
 app = FastAPI(title="API Radar AMISR 14 -IGP")
 
-# base temporal de datos
+# base temporal de datos- LISTA TEMPORAL DE DATOS SE VACIA CADA VEZ QUE REINICIAMOS
 RADAR_DATA=[]
 
 @app.post("/medicion/")

@@ -1,3 +1,9 @@
+"""
+Para borrar.
+curl -X DELETE "http://localhost:6333/collections/docs_vectoriales"
+
+"""
+
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams,PointStruct,HnswConfigDiff
 from sentence_transformers import SentenceTransformer
