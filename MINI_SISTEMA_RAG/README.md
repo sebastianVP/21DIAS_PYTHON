@@ -181,3 +181,14 @@ for doc in vectorstore.get_all():
 - La colección vectorial puede ser **actualizada y ampliada** sin problemas.  
 - El sistema es reproducible localmente o en la nube.  
 - Funciona con **LangChain moderno** y Ollama **sin depender de clases deprecadas**.
+
+##  Futuro
+Armar un servicio RAG completo usando FastAPI + Uvicorn que exponga un endpoint para recibir preguntas y devolver respuestas generadas por tu pipeline RAG. Te voy a dar un ejemplo funcional basado en tu proyecto actual: Qdrant + LangChain + OllamaLLM.
+```bash
+MINI_SISTEMA_RAG/
+│
+├─ rag_qdrant_langchain.py  # Pipeline RAG (creación de embeddings y vectorstore)
+├─ api.py                   # Servicio FastAPI
+├─ requirements.txt
+└─ .gitignore               # Incluye .env
+```
