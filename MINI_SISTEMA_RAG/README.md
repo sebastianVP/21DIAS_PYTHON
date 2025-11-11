@@ -1,4 +1,4 @@
-# ** 🧭QDRANT–LANGCHAIN BOOTCAMP**
+# **🧭QDRANT–LANGCHAIN BOOTCAMP**
 
 ## **Objetivo**: 
 
