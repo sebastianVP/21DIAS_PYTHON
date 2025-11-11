@@ -14,8 +14,9 @@ conocimientos de programacion.
 
 ## OBJETIVOS A PRACTICAR:
 
-- [x] ~~Python avanzado (asincronía, manejo de memoria, decoradores, type hints).~~
+- [X] ~~Python avanzado (asincronía, manejo de memoria, decoradores, type hints).~~
 - [X] ~~Frameworks backend: FastAPI.~~
+- [X] ~~Diseño, estructuración y orquestación de Microservicios con python.~~
 - Frameworks backed:  Django, Flask.
 - Bases de datos: SQL (PostgreSQL, MySQL) y NoSQL (MongoDB, Redis).
 - Librerías de BI/IA/ML: Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch (deseable).
