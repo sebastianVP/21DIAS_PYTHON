@@ -17,6 +17,7 @@ conocimientos de programacion.
 - [X] ~~Python avanzado (asincronía, manejo de memoria, decoradores, type hints).~~
 - [X] ~~Frameworks backend: FastAPI.~~
 - [X] ~~Diseño, estructuración y orquestación de Microservicios con python.~~
+- [X] ~~Objetivos a practicar QDRANT–LANGCHAIN-HNSW~~
 - Frameworks backed:  Django, Flask.
 - Bases de datos: SQL (PostgreSQL, MySQL) y NoSQL (MongoDB, Redis).
 - Librerías de BI/IA/ML: Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch (deseable).
