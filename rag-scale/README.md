@@ -16,10 +16,9 @@ Se incluyen técnicas de **preprocesamiento, embeddings distribuidos, almacenami
 
 ```mermaid
 graph TD
-    A[📄 100+ PDFs] --> B[⚙️ Preprocesamiento y segmentación]
-    B --> C[*  Embeddings (HuggingFace / OpenAI)]
-    C --> D[💾 Vector DB (Qdrant / FAISS / Milvus)]
-    D --> E[🔍 Retriever / Search API]
-    E --> F[🧠 LLM (Ollama / LLaMA / GPT)]
-    F --> G[💬 Respuesta contextual al usuario]
-```
+    A[PDFs (100+)] --> B[Preprocesamiento y segmentación]
+    B --> C[Embeddings (HuggingFace / OpenAI)]
+    C --> D[Vector DB (Qdrant / FAISS / Milvus)]
+    D --> E[Retriever / Search API]
+    E --> F[LLM (Ollama / LLaMA / GPT)]
+    F --> G[Respuesta contextual al usuario]
