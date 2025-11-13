@@ -15,9 +15,11 @@ Se incluyen técnicas de **preprocesamiento, embeddings distribuidos, almacenami
 ## 🏗️ Arquitectura general
 
 ```mermaid
-  graph TD
-      A-->B
-      A-->C
-      B-->D
-      C-->D
+graph TD
+    A[PDFs (100+)] --> B[Preprocesamiento y segmentación]
+    B --> C[Embeddings (HuggingFace / OpenAI)]
+    C --> D[Vector DB (Qdrant / FAISS / Milvus)]
+    D --> E[Retriever / Search API]
+    E --> F[LLM (Ollama / LLaMA / GPT)]
+    F --> G[Respuesta contextual al usuario]
 ```
