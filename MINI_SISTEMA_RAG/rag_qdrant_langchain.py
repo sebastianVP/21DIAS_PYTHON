@@ -46,7 +46,6 @@ try:
         collection_name=collection_name,
         embedding=embeddings,
         content_payload_key="texto"  # 👈 clave correcta en tu Qdrant por default es "page_content"
-
     )
     print(f"✅ VectorStore creado correctamente para la colección: {collection_name}")
 except Exception as e:
