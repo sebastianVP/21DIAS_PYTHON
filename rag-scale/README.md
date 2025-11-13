@@ -17,7 +17,7 @@ Se incluyen técnicas de **preprocesamiento, embeddings distribuidos, almacenami
 ```mermaid
 graph TD;
     A[PDFs] --> B[Preprocesamiento y segmentacion];
-    B --> C[Embeddings (HuggingFace / OpenAI)];
+    B --> C[Embeddings -HuggingFace / OpenAI];
     C --> D[Vector DB (Qdrant / FAISS / Milvus)];
     D --> E[Retriever / Search API];
     E --> F[LLM (Ollama / LLaMA / GPT)];
