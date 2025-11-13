@@ -13,7 +13,6 @@ Se incluyen técnicas de **preprocesamiento, embeddings distribuidos, almacenami
 ---
 
 ## 🏗️ Arquitectura general
-
 ```mermaid
 graph TD
     A[PDFs (100+)] --> B[Preprocesamiento y segmentación]
