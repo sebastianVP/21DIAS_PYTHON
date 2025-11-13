@@ -22,3 +22,4 @@ graph TD
     D --> E[Retriever / Search API]
     E --> F[LLM (Ollama / LLaMA / GPT)]
     F --> G[Respuesta contextual al usuario]
+```
