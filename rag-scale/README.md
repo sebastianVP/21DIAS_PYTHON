@@ -23,3 +23,11 @@ graph TD
     E --> F[LLM (Ollama / LLaMA / GPT)]
     F --> G[Respuesta contextual al usuario]
 ```
+
+
+```mermaid
+graph TD
+    A[PDFs] --> B[Procesamiento]
+    B --> C[Embeddings]
+    C --> D[VectorDB]
+```
