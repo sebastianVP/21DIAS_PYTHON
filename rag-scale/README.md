@@ -14,8 +14,6 @@ Se incluyen técnicas de **preprocesamiento, embeddings distribuidos, almacenami
 
 ## 🏗️ Arquitectura general
 
-# Test Mermaid
-
 ```mermaid
   graph TD;
       A-->B;
