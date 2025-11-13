@@ -18,6 +18,7 @@ conocimientos de programacion.
 - [X] ~~Frameworks backend: FastAPI.~~
 - [X] ~~Diseño, estructuración y orquestación de Microservicios con python.~~
 - [X] ~~Objetivos a practicar QDRANT–LANGCHAIN-HNSW~~
+- [X] ~~Armar un servicio RAG Completo usando FastAPI+Uvicorn que exponga el endopoint para recibir preguntar y devolver respuestas generadas por el pipeline RAG~~
 - Frameworks backed:  Django, Flask.
 - Bases de datos: SQL (PostgreSQL, MySQL) y NoSQL (MongoDB, Redis).
 - Librerías de BI/IA/ML: Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch (deseable).
