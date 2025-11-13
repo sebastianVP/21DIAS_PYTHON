@@ -17,6 +17,9 @@ Se incluyen técnicas de **preprocesamiento, embeddings distribuidos, almacenami
 # Test Mermaid
 
 ```mermaid
-graph TD
-    X[A] --> Y[B]
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
 ```
