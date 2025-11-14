@@ -23,3 +23,16 @@ graph TD;
     E --> F[LLM -Ollama / LLaMA / GPT];
     F --> G[Respuesta contextual al usuario];
 ```
+
+## Estructura del Proyecto
+
+```bash
+RAG-Scale/
+├── data_pdfs/               # Carpeta con los PDFs originales
+├── embeddings/              # Embeddings persistidos (si se guardan localmente)
+├── rag_pipeline.py          # Pipeline principal RAG
+├── api.py                   # Servicio FastAPI para consultas
+├── requirements.txt         # Dependencias
+├── README.md                # Este archivo
+└── utils/                   # Scripts auxiliares (split, parse, etc.)
+```mermaid
