@@ -14,5 +14,7 @@ llm = Ollama(model="llama3", temperature=0)
 print("✅ Ollama cargado correctamente con LangChain Community")
 print("🧠 Probando generación...")
 
-respuesta = llm.invoke("¿Cuál es la capital de Perú?")
+#respuesta = llm.invoke("¿Cuál es la capital de Perú?")
+respuesta = llm.invoke("¿Alan Garcia dio un discurso en el 2008?")
+
 print("💬 Respuesta:", respuesta)
