@@ -13,6 +13,6 @@ import requests
 
 response = requests.post(
     "http://localhost:8000/ask",
-    json={"question": "Alan Garcia dio un discurso en el 2008"}
+    json={"question": "¿Alan Garcia dio un discurso  el 28 de julio del 2008 ?"}
 )
 print(response.json())
