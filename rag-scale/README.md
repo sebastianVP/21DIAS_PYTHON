@@ -53,7 +53,7 @@ RAG-Scale/
 │   │
 │   └── utils/
 │       └── logger.py             # Logging centralizado
-│
+├── create_vector_db.py
 ├── requirements.txt
 ├── README.md
 └── .env                          # Variables (Qdrant, model, rutas)

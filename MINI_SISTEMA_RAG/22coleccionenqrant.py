@@ -91,3 +91,66 @@ print("📦 Vectores insertados correctamente.")
 # 6️⃣ Verificar conteo
 count = client.count(collection_name, exact=True)
 print(f"📊 Total de documentos: {count.count}")
+
+
+
+"""
+EN EL FUTURO CON LANGCHAIN
+ya no usamos client.upsert() y en su lugar usamos QdrantVectorStore.from_texts()
+
+Antes, cuando trabajabas directamente con Qdrant sin LangChain, la forma normal era:
+
+client.upsert(
+    collection_name="docs_100pdfs",
+    points=[ ... ]   # vectores + payloads
+)
+
+
+Eso implicaba que tú tenías que:
+
+generar las embeddings manualmente
+
+construir los points (id, vector, payload)
+
+asegurarte que la colección exista
+
+manejar errores, índices, distancias, etc.
+
+Era mucho trabajo.
+
+🚀 Ahora con LangChain → QdrantVectorStore.from_texts()
+
+Cuando usas:
+
+QdrantVectorStore.from_texts(
+    texts=chunks_all,
+    embedding=embeddings,
+    collection_name="docs_100pdfs",
+    client=client
+)
+
+
+LangChain hace todo esto por ti:
+
+✔ 1. Crea la colección automáticamente
+
+Si no existe → la crea con el tamaño adecuado de vector.
+
+✔ 2. Genera embeddings
+
+Por ejemplo, con all-MiniLM-L6-v2 genera vectores de 384 dimensiones por cada chunk.
+
+✔ 3. Inserta los puntos en Qdrant
+
+Internamente llama a client.upsert(), pero tú ya no lo ves.
+
+✔ 4. Regresa un VectorStore listo para usar como retriever
+
+Lo puedes usar así:
+
+retriever = vectorstore.as_retriever()
+
+📌 Entonces tu flujo real es:
+1. ingest_all_pdfs() → devuelve chunks_all
+
+"""
