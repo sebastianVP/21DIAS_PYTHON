@@ -28,11 +28,33 @@ graph TD;
 
 ```bash
 RAG-Scale/
-├── data_pdfs/               # Carpeta con los PDFs originales
-├── embeddings/              # Embeddings persistidos (si se guardan localmente)
-├── rag_pipeline.py          # Pipeline principal RAG
-├── api.py                   # Servicio FastAPI para consultas
-├── requirements.txt         # Dependencias
-├── README.md                # Este archivo
-└── utils/                   # Scripts auxiliares (split, parse, etc.)
-```mermaid
+│
+├── data/
+│   ├── pdfs/                     # Carpeta con tus 100+ PDFs
+│   └── processed/                # Textos extraídos y limpiados
+│
+├── src/
+│   ├── ingest/
+│   │   ├── extract_text.py       # Extrae texto de PDFs
+│   │   ├── clean_text.py         # Limpia texto
+│   │   ├── chunk_text.py         # Divide en chunks
+│   │   └── pipeline_ingest.py    # Pipeline de ingestión completo
+│   │
+│   ├── embeddings/
+│   │   ├── embedder.py           # Crea embeddings HuggingFace
+│   │   └── vector_store.py       # Conexión Qdrant + carga de vectores
+│   │
+│   ├── rag/
+│   │   ├── retriever.py          # Recuperación semántica
+│   │   └── generator.py          # LLM que genera respuestas
+│   │
+│   ├── api/
+│   │   └── main.py               # FastAPI con /ask
+│   │
+│   └── utils/
+│       └── logger.py             # Logging centralizado
+│
+├── requirements.txt
+├── README.md
+└── .env                          # Variables (Qdrant, model, rutas)
+```
